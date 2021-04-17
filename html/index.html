@@ -2,23 +2,94 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="nome" content="Petshop">
-  	<meta name="autor" content="Jennifer Lima">
 	<title> Página da Praia </title>
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<style>
+		div{
+            width: 100px;
+            height: 50px;
+        }
+        .fundomenu{
+            background:  rgb(135,206,235);
+            width: 100%;
+            padding: 20px 10px;
+            margin: -12px;
+        }
+		img {
+			float: left;
+		}
+       
+        h1{
+            color: rgb(0,128,128);
+            font-size: 30px;
+            font-weight: bolder;
+            text-align: center;
+            font-family: Kalam;
+        }
+        pre{
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            font-family: Kalam;
+        }
+.menu>ul{
+	list-style:none;	
+	position:relative;
+	margin-left:300px;
+	}
+.menu ul li{
+		width:200px;
+		float:left;
+	}
+
+.menu a{
+	padding:10px;
+	display:block;
+	text-decoration: none;
+	background-color: rgb(135,206,235);
+	text-align:center;
+    font-size: 21.5px;
+    color: rgb(18, 18, 19);
+    font-family: Kalam;
+	}
+.menu ul ul{
+	list-style:none;
+	position:absolute;
+	visibility:hidden;
+
+}
+.menu a:hover{
+	background-color: rgb(241, 241, 241, 0.932);
+}
+	</style>
 </head>
 <body>
+	 <div class="fundomenu"> 
+            <img src="logo4.png" width="100" height="75" alt="Não achou a imagem">
+            <nav class="menu">
+            <ul>
+                <li><a href="index.html"> Início </a></li>
+                <li><a href="QuemSou.html"> Proprietário </a></li>
+                <li><a href="login.html"> Login/Cadastro </a></li>
+                <li><a href="contato.html"> Contato </a></li>
+                
+            </ul>
+            </nav>
+        </div>
 
 
 	<h1 style="text-align: center;"> PETSHOP DA PRAIA </h1>
 
-	<pre> 				Essa página tem como objetivo apresentar todos os serviços oferecidos pelo PETSHOP DA PRAIA. 
+	<pre> 				Essa página tem como objetivo apresentar todos os serviços oferecidos pelo Petshop da Praia. 
 			Nela terá uma seção para contato, para login e para apresentação da proprietária da nossa empresa.
 			Na seção principal, ou seja, essa, será possível ver alguns de nossos clientes abaixo.
 			Esperamos que gostem dessa visita.
 
 			Um agradecimento de todos os colaboradores do PETSHOP DA PRAIA.</pre>
-
+<center>
+    <p style="font-size: 10px; position: static; width: 100%; bottom: 0">
+        Desenvolvido por Jennifer Lima na disciplina de Programação Web – 16 de abril
+    </p>
+</center>
 
 </body>
 </html>

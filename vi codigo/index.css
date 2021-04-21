@@ -1,0 +1,75 @@
+	div{
+            width: 100px;
+            height: 50px;
+        }
+        
+        .fundomenu{
+            background:  rgb(135,206,235);
+            width: 100%;
+            padding: 20px 10px;
+            margin: -12px;
+        }
+		img {
+			float: left;
+		}
+       
+        h1{
+            color: rgb(0,128,128);
+            font-size: 30px;
+            font-weight: bolder;
+            text-align: center;
+            font-family: Kalam;
+        }
+        pre{
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            font-family: Kalam;
+        }
+.menu>ul{
+	list-style:none;	
+	position:relative;
+	margin-left:300px;
+	}
+.menu ul li{
+		width:200px;
+		float:left;
+	}
+
+.menu a{
+	padding:10px;
+	display:block;
+	text-decoration: none;
+	background-color: rgb(135,206,235);
+	text-align:center;
+    font-size: 21.5px;
+    color: rgb(18, 18, 19);
+    font-family: Kalam;
+	}
+.menu ul ul{
+	list-style:none;
+	position:absolute;
+	visibility:hidden;
+
+}
+.menu a:hover{
+	background-color: rgb(241, 241, 241, 0.932);
+}
+.form {
+font-family: Kalam;
+font-weight: bold;
+}
+.button{
+background-color: rgb(135,206,235);
+border: none;
+color: black;
+padding: 15px 32px;
+text-align: center;
+font-size: 16px;
+
+}
+.background img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  }
